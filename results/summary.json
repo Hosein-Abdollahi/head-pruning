@@ -1,0 +1,7 @@
+{
+  "model": "gpt2",
+  "baseline_ppl": 48.31,
+  "elbow_fraction": 0.2,
+  "importance_beat_random": 8,
+  "n_fractions": 9
+}

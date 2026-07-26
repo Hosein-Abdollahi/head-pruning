@@ -1,0 +1,38 @@
+[
+  {
+    "model": "distilgpt2",
+    "params_m": 82,
+    "n_layers": 6,
+    "n_heads_per_layer": 12,
+    "total_heads": 72,
+    "discrimination": 1.043,
+    "baseline_ppl": 66.88,
+    "elbow": 0.1,
+    "importance_wins": 4,
+    "n_fractions": 9
+  },
+  {
+    "model": "gpt2",
+    "params_m": 124,
+    "n_layers": 12,
+    "n_heads_per_layer": 12,
+    "total_heads": 144,
+    "discrimination": 2.176,
+    "baseline_ppl": 48.31,
+    "elbow": 0.2,
+    "importance_wins": 8,
+    "n_fractions": 9
+  },
+  {
+    "model": "gpt2-medium",
+    "params_m": 355,
+    "n_layers": 24,
+    "n_heads_per_layer": 16,
+    "total_heads": 384,
+    "discrimination": 1.68,
+    "baseline_ppl": 31.47,
+    "elbow": 0.2,
+    "importance_wins": 8,
+    "n_fractions": 9
+  }
+]

@@ -1,0 +1,4 @@
+model,params_m,n_layers,n_heads_per_layer,total_heads,discrimination,baseline_ppl,elbow,importance_wins,n_fractions
+distilgpt2,82,6,12,72,1.043,66.88,0.1,4,9
+gpt2,124,12,12,144,2.176,48.31,0.2,8,9
+gpt2-medium,355,24,16,384,1.68,,0.2,8,9
